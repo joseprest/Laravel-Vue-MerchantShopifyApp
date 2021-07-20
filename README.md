@@ -10,7 +10,7 @@
 
 
 ## Description
-<img src="screenshot.png" alt="Shopify App Merchant">
+<img src="screenshot1.png" alt="Shopify App Merchant">
 Merchantly Shopify App Development
 
 Laravel
