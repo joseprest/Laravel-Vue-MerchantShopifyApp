@@ -1,0 +1,23 @@
+@import '~@fortawesome/fontawesome-pro/scss/fontawesome';
+@import '~@fortawesome/fontawesome-pro/scss/light';
+
+$body-bg: #f7f9fa;
+$font-family-sans-serif: 'Roboto', sans-serif;
+$primary: #3362d2 !default;
+$success: #2db84d !default;
+$info: #562785 !default;
+$warning: #FF9F43 !default;
+
+@import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap-vue/src/index.scss';
+
+@import "_vuexy";
+
+@import "styles";
+
+@import "transactions";
+
+@import "helpers";
+
+@import "_pricing";

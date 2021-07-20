@@ -1,0 +1,19 @@
+/* Transactions Page */
+#billing-home-page {
+    .billing-home-wrapper {
+        .left-view {
+            .card-body {
+                .plan-detail {
+                   display: flex;
+                    justify-content: space-evenly;
+                    align-items: center; 
+                    i.fal {
+                        font-size: 36px;
+                        margin: 6px 0 10px;
+                        color: #3362d2;
+                    }
+                }
+            }
+        }
+    }
+}

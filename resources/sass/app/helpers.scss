@@ -1,0 +1,40 @@
+.bold {
+    font-weight: 500;
+}
+.white {
+	color: #fff !important;
+}
+[v-cloak] {
+    display: none;
+}
+.loading,
+.loader[v-cloak] {
+    display: block !important;
+    margin: 50px auto 30px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    border-top: 2px solid $primary;
+    border-right: 2px solid $primary;
+    border-bottom: 2px solid $primary;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1.5s linear infinite;
+    & > * {
+        display: none !important;
+    }
+}
+.loading.sm {
+    margin: 0 25px;
+    display: inline-block !important;
+    width: 30px;
+    height: 30px;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
